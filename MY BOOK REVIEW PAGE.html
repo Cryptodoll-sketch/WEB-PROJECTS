@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Book Review: Firestorm</title>
+     <style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+       
+body {
+   background-color: #f9f7f4;
+   color: #333;
+   line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+  background: linear-gradient(to right, #8b0000,#b22222);
+  color:white;
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+   font-size: 1.2rem;
+   opacity: 0.9;
+}
+
+   main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.book-cover {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.book-cover img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2)
+}
+
+.book-details {
+    margin-top: 1rem;
+}
+
+.book-details h2 {
+    color: #8b0000;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.book-info {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.book-info li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.book-info strong {
+    display: inline-block;
+    width: 120px;
+    color: #555;
+}
+
+.rating {
+    color: #ffc107;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.review-content {
+   background: white;
+   padding: 2rem;
+   border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.review-section {
+   margin-bottom: 2rem;
+}
+
+.review-section h2 {
+   color: #8b0000;
+   border-bottom: 2px solid #f0f0f0;
+   padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+blockquote {
+   font-style: italic;
+   border-left: 4px solid #b22222;
+   margin: 1rem 0;
+   padding-left: 1rem;
+   color: #555;   
+}
+
+.highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.highlight-card {
+    background: #fff8f8;
+    padding: 1rem;
+    border-radius: 6px;
+    border-left: 4px solid #b22222;
+}
+
+.highlight-card h3 {
+    color: #8b0000;
+   margin-bottom: 0.5rem;
+   font-size: 1.1rem;
+}
+
+.purchase-options {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #8b0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background0.3s;
+}
+   
+.btn:hover {
+    background-color: #b22222;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid #8b0000;
+    color: white;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.similar-books {
+    margin: 2rem 0;
+}
+
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.book-item{
+    text-align: center;
+    }
+
+.book-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.book-item p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+  <header>
+   <div class="container">
+         <h1>Fire Storm</h1>
+         <p class="subtitle">by Iris Johansen</p>
+        </header>
+
+        <div class="container">
+        <main>
+            <section class="book-cover">
+                <img src="/web images/Firestorm.jpg" alt="Book cover of Firestorm by Iris Johansen featuring dramatic typography with fiery red and orange elements, suggesting intense action and suspense.">
+
+                <div class="book-details">
+                    <h2>Book Details</h2>
+                    <ul class="book-info">
+                        <li><strong>Author:</strong> Iris Johansen</li>
+                        <li><strong>Genre:</strong> Thriller, Mystery</li>
+                        <li><strong>Publisher:</strong> Penguin Random House</li>
+                        <li><strong>Publication Date:</strong> March 15, 2024</li>
+                        <li><strong>ISBN:</strong> 978-1-23456-789-0</li>
+                    </ul>
+
+                    <div class="rating">
+                        ★★★★☆ (4.2/5)
+                    </div>
+
+                    <div class="purchase-options">
+                        <a href="#" class="btn">Buy Now</a>
+                        <a href="#" class="btn btn-outline">Add to Wishlist</a>
+                    </div>
+                </div>
+            </section>
+            
+                <section class="review-content">
+                    <div class="review-section">
+                        <h2>Book Review</h2>
+                        <p><strong>Firestorm</strong> is another thrilling installment in Iris Johansen's series featuring forensic sculptor Eve Duncan. This novel takes readers on aheart-pounding journey through danger,mystery, and emotional turmoil.</p>
+
+                        <p>When a forest fire rages through the California hills, a team of firefighters discovers a body that doesn't belong. Eve Duncan is called in to reconstruct the face of the victim, but what she uncovers is far more sinnister than anyone anticipated.</p>
+
+                        <blockquote>"Johansen masterfully builds tension page by page, creating a firestorm of suspense that will leave readers breathless until the end."
+                        </blockquote>
+
+                        <p>The narrative weaves together multiple storylines, with Eve's personsal journey intersecting with a dangerous conspiracy that threatens everything she holds dear. As always, Johansen's characters are richly drawn and compelling, with Eve Duncan standing out as a resilient and complex protagonist.</p>
+
+                              </div>
+
+                    <div class="review-section">
+                        <h2>What I Loved</h2>
+                        <div class="highlights">
+                        <div class="highlight-card">
+                            <h3>Pacing</h3>
+                            <p>The story moves at breakneck speed with perfectly timed reveals that keep you turning pages late into the night.</p>
+                         </div>
+                        <div class="highlight-card">
+                            <h3>Character Depth</h3>
+
+                            <p>Johansen creates a palpable sense of danger and urgency, with the firestorm seving as both literal and metaphorical background.</p>
+                        </div> 
+                    </div>
+                    </div>
+
+                    <div class="review-section">
+                        <h2>Reader Consideration</h2>
+                        <p>While <em>Firestorm</em> can be read as a standalone novel, readers familiar with the Eve Duncan series will appreciate the continuing character development and references to previous events.</p>
+                        
+                        <p> The book contains some intense scenes involving violence and danger that may be disturbing to sensitive readers. As with many thrillers, suspension of disbelief is occasionally required for some of the more dramatic plot development.</p>
+                          </div>
+                          </div>
+                          </section>
+            </main>
+        </div>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2023 Thriller Reads | Book Reviews for Suspense Lovers</p>
+                <p>This is a fictional book review page created for demonstration purposes.</p>
+            </div>
+        </footer>
+</body>
+</html>
+
+            
+
+
+
+
